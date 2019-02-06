@@ -1,0 +1,31 @@
+#flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square {
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,0.3);
+	float: left;
+	vertical-align: top;
+	background-color: white;
+}
+
+#grid-container{
+    height: 600px;
+    width: 600px;
+}
+#button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+button{
+    margin: 15px;
+    padding: 25px;
+}
+html{
+background-image: url(images/aurora-borealis-1032523_1920.jpg);
+background-position: 100%;
+}
